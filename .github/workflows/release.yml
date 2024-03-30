@@ -80,4 +80,4 @@ jobs:
           # (若干多个build时，此名称相同，则合并打包到一个zip中)
           name: elf_${{ runner.os }}
           # 将 action打包到 action1.1.zip中并把 action1.1.zip 上传到github的本次action的Artifacts下
-          path: ${{ github.workspace }}/src-tauri/target/release/tauri-pure-admin
+          path: ${{ github.workspace }}/src-tauri/target/release/bundle/
