@@ -67,15 +67,9 @@ jobs:
           releaseDraft: true
       - name: List the result of the build 
         run: |
-          cd src-tauri/target
-          
-          echo "target---------"
-          
+          cd src-tauri/target          
           ls 
-          cd release
-          
-          echo "release---------"
-          
+          cd release          
           ls
     
       - name : Upload execution
