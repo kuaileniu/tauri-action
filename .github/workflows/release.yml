@@ -68,8 +68,10 @@ jobs:
       - name: List the result of the build 
         run: |
           cd src-tauri/target
+          echo "next-> src-tauri/target---------"
           ls 
           cd release
+          echo "next-> release---------"
           ls
     
       - name : Upload execution
